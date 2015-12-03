@@ -44,7 +44,7 @@ public class SmsWebService {
 				json.put("status", 0);
 				json.put("sms", "Thanh toan that bai");
 			}
-			json.put("text", "text");
+			json.put("type", "text");
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
